@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240423180947">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="navbar">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="" class="menu__link">Главная</a>
+								</li>
+								<li class="menu__item">
+									<a href="#news" class="menu__link">Новости</a>
+								</li>
+								<li class="menu__item">
+									<a href="#about" class="menu__link">О нас</a>
+								</li>
+								<li class="menu__item">
+									<a href="#footer" class="menu__link">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="navbar__right">
+						<div data-popup="#popup" class="button button_nav">Забраонировать</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__main">
+				<div class="header__container header__cnt">
+					<div class="header__currency">
+						<div class="header__currency-1">1 USD = 93 руб.</div>
+						<div class="header__currency-2">1 EUR = 100 руб.</div>
+					</div>
+					<div class="header__titles">
+						<h1 class="header__title-first">Тур по острову</h1>
+						<h2 class="header__title-second">
+							Получи незабываемые эмоции от путешествия в Маврикий
+						</h2>
+					</div>
+					<div class="header__book book-header">
+						<div class="book-header__left">
+							<div class="book-header__item">
+								<div class="book-header__title">От куда</div>
+								<div class="book-header__text">Москва</div>
+							</div>
+							<div class="book-header__item">
+								<div class="book-header__title">Куда</div>
+								<div class="book-header__text">Маврикий</div>
+							</div>
+							<div class="book-header__item">
+								<div class="book-header__title">Дата вылета</div>
+								<div class="book-header__text">13 Апреля</div>
+							</div>
+							<div class="book-header__item">
+								<div class="book-header__title">Длительность</div>
+								<div class="book-header__text">7 дней</div>
+							</div>
+						</div>
+						<div class="book-header__right">
+							<div data-popup="#popup" class="button">Забронировать</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<div id="news" class="news">
+				<h2 class="news__title title">Новости</h2>
+				<div class="news__container">
+					<div class="news__item item-news">
+						<div class="item-news__img">
+							<picture><source srcset="img/news1.webp" type="image/webp"><img src="img/news1.png" alt="img" /></picture>
+						</div>
+						<h3 class="item-news__title">Экологический прорыв</h3>
+						<div class="item-news__subtitle">
+							Маврикий запускает программу по сохранению морских черепах, с
+							целью охраны уникальной фауны острова.
+						</div>
+						<div data-popup="#popup" class="item-news__button button">
+							Забронировать
+						</div>
+					</div>
+					<div class="news__item item-news">
+						<div class="item-news__img">
+							<picture><source srcset="img/news2.webp" type="image/webp"><img src="img/news2.png" alt="img" /></picture>
+						</div>
+						<h3 class="item-news__title">Эксклюзивный курорт</h3>
+						<div class="item-news__subtitle">
+							На Маврикии открывается новый роскошный курорт, предлагающий
+							идеальное сочетание роскоши и экзотической природы.
+						</div>
+						<div data-popup="#popup" class="item-news__button button">
+							Забронировать
+						</div>
+					</div>
+					<div class="news__item item-news">
+						<div class="item-news__img">
+							<picture><source srcset="img/news3.webp" type="image/webp"><img src="img/news3.png" alt="img" /></picture>
+						</div>
+						<h3 class="item-news__title">Туристический бум</h3>
+						<div class="item-news__subtitle">
+							Маврикий побил рекорд по числу посетителей за последний год,
+							привлекая туристов своими белоснежными пляжами и кристально
+							чистыми водами.
+						</div>
+						<div data-popup="#popup" class="item-news__button button">
+							Забронировать
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="weather">
+				<div class="title weather__title">Погода</div>
+				<div class="weather__container">
+					<div class="weather__item item-weather weather__item-1">
+						<div class="weather__item_from">От:</div>
+						<div class="item-weather__block">
+							<div class="item-weather__title">Маврикий</div>
+							<div class="item-weather__deg">25°C</div>
+						</div>
+					</div>
+					<div class="weather__item item-weather weather__item-2">
+						<div class="weather__item_to">До:</div>
+						<div class="item-weather__block item-weather__block-2">
+							<div class="item-weather__title">Маврикий</div>
+							<div class="item-weather__deg">32°C</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about">
+				<h2 class="about__title title">Информация про остров</h2>
+				<div class="about__container">
+					<div class="about__item">
+						<div class="about__img">
+							<picture><source srcset="img/about1.webp" type="image/webp"><img src="img/about1.png" alt="img" /></picture>
+						</div>
+						<div class="about__text">
+							Маврикий, остров в Индийском океане, привлекает туристов своими
+							пляжами и культурным наследием. С белоснежными пляжами и
+							туркисовыми водами, он идеально подходит для отдыха.
+							Неудивительно, что это место выбирают туристы со всего мира.
+						</div>
+					</div>
+					<div class="about__item">
+						<div class="about__img img-dn">
+							<picture><source srcset="img/about2.webp" type="image/webp"><img src="img/about2.png" alt="img" /></picture>
+						</div>
+						<div class="about__text">
+							Смешение различных культур создает уникальную атмосферу. Здесь
+							можно отведать блюда французской, африканской, индийской и
+							китайской кухни. Кроме того, местные праздники и фестивали
+							погружают гостей в аутентичную культурную атмосферу.
+						</div>
+						<div class="about__img img-db">
+							<picture><source srcset="img/about2.webp" type="image/webp"><img src="img/about2.png" alt="img" /></picture>
+						</div>
+					</div>
+					<div class="about__item">
+						<div class="about__img">
+							<picture><source srcset="img/about3.webp" type="image/webp"><img src="img/about3.png" alt="img" /></picture>
+						</div>
+						<div class="about__text">
+							Природа острова богата и разнообразна, предлагая различные
+							приключения на свежем воздухе. От походов по горным тропам до
+							встречи с экзотической флорой и фауной, Маврикий поражает своими
+							природными богатствами.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="us" id="about">
+				<div class="us__container">
+					<div class="us__left">
+						<h2 class="us__title">О нас</h2>
+						<div class="us__text">
+							Добро пожаловать! Мы - команда профессионалов, предлагающая вам
+							незабываемые путешествия по всему миру. Наше турагентство
+							основано на страсти к путешествиям и стремлении сделать ваш
+							отдых незабываемым.
+						</div>
+						<div class="us__text">
+							Мы специализируемся на создании индивидуальных и групповых
+							туров, которые сочетают в себе комфорт, удовольствие и
+							неповторимые впечатления. Независимо от того, ищете ли вы
+							роскошный отдых на пляже, увлекательное путешествие по
+							культурным достопримечательностям или активный отдых в горах, мы
+							поможем вам воплотить ваши мечты в реальность.
+						</div>
+					</div>
+					<div class="us__right">
+						<picture><source srcset="img/us.webp" type="image/webp"><img src="img/us.jpg" alt="img" /></picture>
+					</div>
+				</div>
+			</div>
+			<div class="review">
+				<h2 class="title review__title">Отзывы</h2>
+				<div class="review__container">
+					<div class="review__item">
+						<div class="review__img">
+							<picture><source srcset="img/review1.webp" type="image/webp"><img src="img/review1.png" alt="img" /></picture>
+						</div>
+						<div class="review__name">Дмитрий</div>
+						<div class="review__descr">
+							Незабываемый отпуск благодаря внимательному персоналу и
+							превосходному выбору туров
+						</div>
+					</div>
+					<div class="review__item">
+						<div class="review__img">
+							<picture><source srcset="img/review2.webp" type="image/webp"><img src="img/review2.png" alt="img" /></picture>
+						</div>
+						<div class="review__name">Екатерина</div>
+						<div class="review__descr">
+							Спасибо за великолепно спланированный отпуск
+						</div>
+					</div>
+					<div class="review__item">
+						<div class="review__img">
+							<picture><source srcset="img/review3.webp" type="image/webp"><img src="img/review3.png" alt="img" /></picture>
+						</div>
+						<div class="review__name">Александр</div>
+						<div class="review__descr">
+							Профессионализм и забота команды превзошли все наши ожидания
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<?xml version="1.0" encoding="iso-8859-1"?>
+						<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+						<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="612.043px" height="612.043px" viewBox="0 0 612.043 612.043" style="enable-background: new 0 0 612.043 612.043" xml:space="preserve">
+							<g>
+								<g id="cross">
+									<g>
+										<path d="M397.503,306.011l195.577-195.577c25.27-25.269,25.27-66.213,0-91.482c-25.269-25.269-66.213-25.269-91.481,0
+				L306.022,214.551L110.445,18.974c-25.269-25.269-66.213-25.269-91.482,0s-25.269,66.213,0,91.482L214.54,306.033L18.963,501.61
+				c-25.269,25.269-25.269,66.213,0,91.481c25.269,25.27,66.213,25.27,91.482,0l195.577-195.576l195.577,195.576
+				c25.269,25.27,66.213,25.27,91.481,0c25.27-25.269,25.27-66.213,0-91.481L397.503,306.011z" />
+									</g>
+								</g>
+							</g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+						</svg>
+					</button>
+					<div class="popup__text">
+						Вы успешно забронировали путёвку на Маврикий
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer" class="footer">
+			<div class="footer__container">
+				<div class="footer__left">
+					<h2 class="footer__title">Наши контакты:</h2>
+					<div class="footer__contacts">
+						<div class="footer__contact">Телефон: +7 788 756 56-78</div>
+						<div class="footer__contact">Email: somemail@mail.com</div>
+					</div>
+				</div>
+				<div class="footer__right">
+					<div data-popup="#popup" class="button">Забронировать</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240423180947"></script>
+</body>
+
+</html>
